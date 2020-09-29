@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER
+
+.header .menu ul {
+    
+}
+
+.header .menu ul li {
+}
+
+.header .menu ul li a {
+}
+
+/* HEADER */
+
+
+/* CARROSSEL */
+
+.carrossel {
+}
+
+.carrossel img {
+}
+
+.carrossel .texto {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.carrossel .texto h1 {
+}
+
+.carrossel .texto h3 {
+}
+
+.carrossel .texto button {
+    border: none;
+}
+
+/* CARROSSEL */
+
+
+/* CONTEUDOS ESPECIFICOS */
+
+.conteudos-especificos{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(17, 20, 40);
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.conteudos-especificos .titulo {
+    
+}
+
+.conteudos-especificos .titulo p {
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteudos-especificos .conteudos {
+    
+}
+
+.conteudos-especificos .conteudos .conteudo1 p {
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteudos-especificos .conteudos .conteudo2 p {
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteudos-especificos .conteudos .conteudo3 p {
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+}
+
+.conteudos-especificos .botao button {
+    border: none;
+    width: 60px;
+}
+
+/* CONTEUDOS ESPECIFICOS */
+
+/* MATERIAL DE APOIO */
+
+.material-apoio {
+}
+
+.material-apoio .descricao {
+}
+
+.material-apoio .descricao h1,
+p {
+}
+
+
+.material-apoio .lista {
+}
+
+.material-apoio .lista ul li {
+    position: relative;
+    cursor: pointer;
+}
+
+.material-apoio .lista ul li:hover {
+    background-color: #eee;
+    left: -10px;
+}
+
+/* MATERIAL DE APOIO */

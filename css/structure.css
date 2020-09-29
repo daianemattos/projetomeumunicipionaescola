@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    padding: 15px;
+}
+
+.header .logo {
+    padding: 15px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header .menu {
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header .menu ul {
+    padding: 15px;
+    display: inline-flex;
+}
+
+.header .menu ul li {
+    padding: 15px;
+}
+
+.header .menu ul li a {
+    padding: 15px;
+}
+
+/* HEADER */
+
+/* CARROSSEL */
+
+.carrossel {
+    position: relative;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.carrossel img {
+    width: 100%;
+    height: 700px;
+}
+
+.carrossel .texto {
+    padding: 10px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.carrossel .texto .traco {
+    border-bottom: 2px solid;
+    width: 25%;
+    padding-bottom: 20px;
+}
+
+.carrossel .texto h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.carrossel .texto h3 {
+    padding-bottom: 20px;
+}
+
+/*
+.carrossel .texto button {
+    padding: 20px;
+    width: 15%;
+    height: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: gray;
+    opacity: 0.5;
+}
+*/
+
+/* CARROSSEL */
+
+/* CONTEUDOS ESPECIFICOS */
+
+.conteudos-especificos{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.conteudos-especificos .titulo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudos-especificos .titulo h1 {
+    padding-bottom: 20px;
+}
+
+.conteudos-especificos .conteudos {
+    padding: 20px;
+}
+
+.conteudos-especificos .conteudos p {
+    width: 85%;
+}
+
+.conteudos-especificos .conteudos > div {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudos-especificos .conteudos img,
+h2 {
+    padding: 20px;
+}
+
+/*
+.conteudos-especificos .botao {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+/* CONTEUDOS ESPECIFICOS */
+
+.divisao {
+    border-bottom: 2px solid #dddd;
+}
+
+/* MATERIAL DE APOIO */
+
+.material-apoio {
+    padding: 20px;
+}
+
+.material-apoio .descricao {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.material-apoio .descricao h2,
+p {
+    padding-bottom: 30px;
+}
+
+.material-apoio .lista {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+}
+
+.material-apoio .lista ul {
+    padding: 20px;
+    width: 60%;
+}
+
+.material-apoio .lista ul li {
+    padding: 20px;
+    border: 1px solid #dddd;
+}
+
+.material-apoio .lista ul li a {
+    padding: 20px;
+}
+
+.material-apoio .lista ul li img {
+    float: right;
+    height: 20px;
+}
+
+.material-apoio .botao button {
+    padding: 8px 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #37ab;
+    border: #37ab;
+    border-radius: 4px;
+}
+
+/* MATERIAL DE APOIO */
+
+/* PRATICA */
+
+.pratica {
+    position: relative;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pratica [alt="img1"] {
+    width: calc(50% - 20px);
+    height: 400px;
+}
+
+.pratica [alt="img2"] {
+    width: calc(50% - 20px);
+    height: 400px;
+}
+
+.pratica .texto {
+    left: 30%;
+    padding: 40px;
+    width: 480px;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.pratica .texto h1 {
+    padding-bottom: 10px;
+}
+
+.pratica .texto p {
+    color: gray;
+}
+
+.pratica .texto button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* PRATICA */
+
+/* NEWSLETTER */
+ 
+.newsletter {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter .texto {
+    padding: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.newsletter .form{
+    padding: 20px;
+    display: flex;
+    align-items: stretch;
+}
+
+.newsletter input {
+    width: 450px;
+    height: 60px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.newsletter .form button {
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+
+}
+
+/* NEWSLETTER */
+
+/* FOOTER */
+
+
+.sobre {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobre .info {
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    color: rgb(17, 20, 40);
+}
+
+.sobre .info p {
+    text-align: center;
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+}
+
+.sobre .identidade {
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    color: rgb(17, 20, 40);
+}
+
+.sobre .identidade p {
+    text-align: center;
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+}
+
+.sobre .contato {
+    padding: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    color: rgb(17, 20, 40);
+}
+
+.sobre .contato p {
+    text-align: center;
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+}
+
+.sobre .contato ul {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sobre .contato ul li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sobre .contato ul li a {
+}
+
+
+.footer {
+    padding: 20px;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+}
+
+/* FOOTER */
