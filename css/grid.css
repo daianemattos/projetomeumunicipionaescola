@@ -9,6 +9,11 @@ body {
     grid-template-columns: repeat(12, 1fr);
 }
 
+body,
+html {
+    width: 100%;
+}
+
 /* HEADER */
 
 .header {
@@ -155,3 +160,147 @@ body {
 
 /* FOOTER */
 
+@media screen and (max-width: 999px) {
+
+/* HEADER */
+
+.header {
+    grid-row: 1;
+    grid-column: 1/13;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header .logo {
+    grid-row: 1;
+    grid-column: 1/13;
+}
+
+.header .menu {
+    grid-row: 2;
+    grid-column: 1/13;
+}
+
+/* HEADER */
+
+/* CARROSSEL */
+
+.carrossel {
+    grid-row: 2;
+    grid-column: 1/13;
+
+    display: relative;
+}
+
+.carrossel .texto {
+    display: absolute;
+}
+
+/* CARROSSEL */
+
+/* CONTEUDOS ESPECIFICOS */
+
+.conteudos-especificos{
+    grid-row: 3;
+    grid-column: 1/13;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.conteudos-especificos .titulo {
+    grid-row: 1;
+    grid-column: 1/13;
+}
+
+.conteudos-especificos .conteudos {
+    grid-row: 2;
+    grid-column: 1/13;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.conteudos-especificos .conteudos .conteudo1 {
+    grid-row: 1;
+    grid-column: 1/13;
+}
+
+.conteudos-especificos .conteudos .conteudo2 {
+    grid-row: 2;
+    grid-column: 1/13;
+}
+
+.conteudos-especificos .conteudos .conteudo3 {
+    grid-row: 3;
+    grid-column: 1/13;
+}
+
+/* CONTEUDOS ESPECIFICOS */
+
+/* DIVISAO */
+
+.divisao {
+    grid-row: 4;
+    grid-column: 2/12;
+}
+
+/* DIVISAO */
+
+/* MATERIAL DE APOIO */
+
+.material-apoio {
+    grid-row: 5;
+    grid-column: 1/13;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.material-apoio .descricao {
+    grid-row: 1;
+    grid-column: 1/13;
+}
+
+.material-apoio .lista {
+    grid-row: 2;
+    grid-column: 1/13;
+}
+
+/* MATERIAL DE APOIO */
+
+/* PRATICA */
+
+.pratica {
+    grid-row: 6;
+    grid-column: 1/13;
+}
+
+/* PRATICA */
+
+/* NEWSLETTER */
+ 
+.newsletter {
+    grid-row: 7;
+    grid-column: 1/13;
+    background-color: teal;
+}
+
+/* NEWSLETTER */
+
+/* FOOTER */
+
+.sobre {
+    grid-row: 8;
+    grid-column: 1/13;
+}
+
+.footer {
+    grid-row: 9;
+    grid-column: 1/13;
+}
+
+/* FOOTER */
+
+}
