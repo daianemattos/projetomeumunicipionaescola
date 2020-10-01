@@ -124,6 +124,7 @@ a {
     color: rgb(17, 20, 40);
     font-weight: 600;
     letter-spacing: 1px;
+    
 }
 
 .conteudos-especificos .titulo {
@@ -135,22 +136,41 @@ a {
 }
 
 .conteudos-especificos .titulo h1 {
-    padding-bottom: 20px;
+    padding: 20px;
+    background-color: deeppink;
 }
 
 .conteudos-especificos .titulo p {
+    padding: 20px;
     font-size: 17px;
     color: #444;
     font-weight: 300;
     text-align: center;
+    background-color: deepskyblue;
 }
 
 .conteudos-especificos .conteudos {
     padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.conteudos-especificos .conteudos h2 {
+    width: 100%;
+    background-color: green;
 }
 
 .conteudos-especificos .conteudos p {
     width: 85%;
+    padding: 20px;
+    font-size: 17px;
+    color: #444;
+    font-weight: 300;
+    text-align: center;
+    background-color: white;
 }
 
 .conteudos-especificos .conteudos > div {
@@ -161,18 +181,17 @@ a {
     flex-direction: column;
 }
 
-.conteudos-especificos .conteudos .conteudo1,
-.conteudo2,
-.conteudo3 p {
+.conteudos-especificos .conteudos > div p {
     font-size: 17px;
-    color: #444;
+    color: rgb(68, 68, 68);
     font-weight: 300;
     text-align: center;
 }
 
-.conteudos-especificos .conteudos img,
-h2 {
+.conteudos-especificos .conteudos > div img {
     padding: 20px;
+    max-width: 380px;
+    max-height: 380px;
 }
 
 /* CONTEUDOS ESPECIFICOS */
