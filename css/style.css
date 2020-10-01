@@ -136,7 +136,6 @@ a {
 
 .conteudos-especificos .titulo h1 {
     padding: 20px;
-    background-color: deeppink;
 }
 
 .conteudos-especificos .titulo p {
@@ -145,20 +144,18 @@ a {
     color: #444;
     font-weight: 300;
     text-align: center;
-    background-color: deepskyblue;
 }
 
 .conteudos-especificos .conteudos {
     padding: 20px;
     
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: flex-start;
     text-align: center;
 }
 
 .conteudos-especificos .conteudos h2 {
-    background-color: green;
 }
 
 .conteudos-especificos .conteudos p {
@@ -180,6 +177,7 @@ a {
 }
 
 .conteudos-especificos .conteudos > div p {
+    width: 85%;
     font-size: 17px;
     color: rgb(68, 68, 68);
     font-weight: 300;

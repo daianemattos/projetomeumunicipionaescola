@@ -22,19 +22,16 @@ html {
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: blueviolet;
 }
 
 .header .logo {
     grid-row: 1;
     grid-column: 1/4;
-    background-color: red;
 }
 
 .header .menu {
     grid-row: 1;
     grid-column: 4/13;
-    background-color: blue;
 }
 
 /* HEADER */
@@ -46,12 +43,10 @@ html {
     grid-column: 1/13;
 
     display: relative;
-    background-color: aqua;
 }
 
 .carrossel .texto {
     display: absolute;
-    background-color: black;
 }
 
 /* CARROSSEL */
@@ -64,13 +59,11 @@ html {
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: chartreuse;
 }
 
 .conteudos-especificos .titulo {
     grid-row: 1;
     grid-column: 1/13;
-    background-color: chocolate;
 }
 
 .conteudos-especificos .conteudos {
@@ -79,25 +72,21 @@ html {
 
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    background-color: cornflowerblue;
 }
 
 .conteudos-especificos .conteudos .conteudo1 {
     grid-row: 1;
     grid-column: 1/5;
-    background-color: crimson;
 }
 
 .conteudos-especificos .conteudos .conteudo2 {
     grid-row: 1;
     grid-column: 5/9;
-    background-color: darkgoldenrod;
 }
 
 .conteudos-especificos .conteudos .conteudo3 {
     grid-row: 1;
     grid-column: 9/13;
-    background-color: darkslateblue;
 }
 
 
