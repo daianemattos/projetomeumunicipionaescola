@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    line-height: 1.5em;
+    font-family: 'Oswald', sans-serif;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 img {
@@ -71,11 +74,10 @@ a {
 .carrossel img {
     width: 100%;
     height: 650px;
+    object-fit: cover;
 }
 
 .carrossel .texto {
-    font-family: 'Oswald', sans-serif;
-    font-size: 25px;
     padding: 20px;
     position: absolute;
     display: flex;
@@ -93,6 +95,7 @@ a {
     padding: 20px;
     padding-bottom: 10px;
     font-weight: bold;
+    font-size: 2.8em;
 }
 
 .carrossel .texto .traco {
@@ -120,7 +123,6 @@ a {
     padding: 20px;
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
     color: rgb(17, 20, 40);
     font-weight: 600;
     letter-spacing: 1px;
@@ -140,7 +142,6 @@ a {
 
 .conteudos-especificos .titulo p {
     padding: 20px;
-    font-size: 17px;
     color: #444;
     font-weight: 300;
     text-align: center;
@@ -161,7 +162,6 @@ a {
 .conteudos-especificos .conteudos p {
     width: 100%;
     padding: 20px;
-    font-size: 17px;
     color: #444;
     font-weight: 300;
     text-align: center;
@@ -178,11 +178,11 @@ a {
 
 .conteudos-especificos .conteudos > div p {
     width: 85%;
-    font-size: 17px;
     color: rgb(68, 68, 68);
     font-weight: 300;
-    text-align: center;
+    text-align: justify;
 }
+
 
 .conteudos-especificos .conteudos > div img {
     padding: 20px;
@@ -193,7 +193,7 @@ a {
 /* CONTEUDOS ESPECIFICOS */
 
 .divisao {
-    border-bottom: 2px solid #dddd;
+    border-bottom: 1px solid #dddd;
 }
 
 /* MATERIAL DE APOIO */
@@ -251,10 +251,10 @@ p {
 }
 
 .material-apoio .botao button {
-    padding: 8px 12px;
+    padding: 10px 14px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #37ab;
+    background-color: #1565C0;
     border: #37ab;
     border-radius: 4px;
 }
@@ -285,7 +285,6 @@ p {
     padding: 40px;
     left: 30%;
     width: 480px;
-    height: 250px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -303,9 +302,15 @@ p {
 }
 
 .pratica .texto button {
-    padding: 10px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #1565C0;
+}
+
+.pratica .texto button a {
+    color: white;
 }
 
 /* PRATICA */
@@ -345,7 +350,6 @@ p {
     border-radius: 0 8px 8px 0;
     background-color: green;
     color: white;
-    font-size: 18px;
 
 }
 
@@ -355,79 +359,55 @@ p {
 
 .sobre {
     padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    flex-direction: row;
     font-family: 'Poppins', sans-serif;
 }
 
 .sobre .info {
-    padding: 20px;
-    margin-left: 20px;
+    padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
     color: rgb(17, 20, 40);
-}
-
-.sobre .info p {
-    text-align: center;
-    font-size: 17px;
-    color: #444;
-    font-weight: 300;
 }
 
 .sobre .identidade {
-    padding: 20px;
-    margin-left: 20px;
+    padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
     color: rgb(17, 20, 40);
-}
-
-.sobre .identidade p {
-    text-align: center;
-    font-size: 17px;
-    color: #444;
-    font-weight: 300;
 }
 
 .sobre .contato {
-    padding: 20px;
-    margin-right: 20px;
+    padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
     color: rgb(17, 20, 40);
 }
 
-.sobre .contato p {
+.sobre .contato ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.sobre h2 {
+    padding: 20px;
+}
+
+.sobre p {
     text-align: center;
-    font-size: 17px;
     color: #444;
     font-weight: 300;
-}
-
-.sobre .contato ul {
-    padding-bottom: 50px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-
-.sobre .contato ul li {
-    padding: 10px;
-    display: flex;
-    align-items: center;
+    text-align: justify;
 }
 
 /* SOBRE*/

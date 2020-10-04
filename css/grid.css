@@ -53,7 +53,7 @@ html {
 
 /* CONTEUDOS ESPECIFICOS */
 
-.conteudos-especificos{
+.conteudos-especificos {
     grid-row: 3;
     grid-column: 2/12;
 
@@ -88,7 +88,6 @@ html {
     grid-row: 1;
     grid-column: 9/13;
 }
-
 
 /* CONTEUDOS ESPECIFICOS */
 
@@ -142,12 +141,35 @@ html {
 
 /* NEWSLETTER */
 
-/* FOOTER */
+/* SOBRE */
 
 .sobre {
     grid-row: 8;
     grid-column: 1/13;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }
+
+.sobre .info {
+    grid-row: 1;
+    grid-column: 1/5;
+}
+
+.sobre .identidade {
+    grid-row: 1;
+    grid-column: 5/9;
+}
+
+.sobre .contato {
+    grid-row: 1;
+    grid-column: 9/13;
+
+}
+
+/* SOBRE */
+
+/* FOOTER */
 
 .footer {
     grid-row: 9;
@@ -285,12 +307,16 @@ html {
 
 /* NEWSLETTER */
 
-/* FOOTER */
+/* SOBRE */
 
 .sobre {
     grid-row: 8;
     grid-column: 1/13;
 }
+
+/* SOBRE */
+
+/* FOOTER */
 
 .footer {
     grid-row: 9;
@@ -298,5 +324,3 @@ html {
 }
 
 /* FOOTER */
-
-}
