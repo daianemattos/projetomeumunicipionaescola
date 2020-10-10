@@ -237,7 +237,7 @@ p {
 
 .material-apoio .lista ul li:hover {
     background-color: #eee;
-    left: -10px;
+    left: -8px;
 }
 
 .material-apoio .lista ul li a {
@@ -252,10 +252,13 @@ p {
 .material-apoio .botao button {
     padding: 10px 14px;
     text-transform: uppercase;
-    color: #fff;
     background-color: #1565C0;
     border: #37ab;
     border-radius: 4px;
+}
+
+.material-apoio .botao button a{
+    color: white;
 }
 
 /* MATERIAL DE APOIO */
@@ -300,15 +303,15 @@ p {
     color: gray;
 }
 
-.pratica .texto button {
+.pratica .texto .botao button {
     padding: 10px 14px;
-    border: none;
-    border-radius: 5px;
     text-transform: uppercase;
+    border: #37ab;
+    border-radius: 5px;
     background-color: #1565C0;
 }
 
-.pratica .texto button a {
+.pratica .texto .botao button a {
     color: white;
 }
 
@@ -348,8 +351,11 @@ p {
     border: none;
     border-radius: 0 8px 8px 0;
     background-color: green;
-    color: white;
+    text-transform: uppercase;
+}
 
+.newsletter .form button a {
+    color: white;
 }
 
 /* NEWSLETTER */
@@ -410,6 +416,9 @@ p {
 }
 
 /* SOBRE*/
+
+/* FOOTER */
+
 .footer {
     padding: 20px;
     align-items: center;
@@ -419,3 +428,10 @@ p {
 }
 
 /* FOOTER */
+
+a.inicio {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
